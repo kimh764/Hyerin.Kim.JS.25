@@ -154,11 +154,8 @@ header .wrapper {
 .menu-home::before {
   content: "\f015";
 }
-.menu-job::before {
+.menu-core2Q::before {
   content: "\f0ca";
-}
-.menu-form::before {
-  content: "\f56e";
 }
 .main-nav .current {
   background: black;

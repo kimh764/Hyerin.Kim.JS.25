@@ -99,7 +99,6 @@ table {
 th,
 td {
   display: block;
-
 }
 th {
   font-weight: normal;
@@ -154,7 +153,7 @@ header .wrapper {
 .menu-home::before {
   content: "\f015";
 }
-.menu-core2Q::before {
+.menu-core2::before {
   content: "\f0ca";
 }
 .main-nav .current {
@@ -252,20 +251,18 @@ DESKTOP SIZE
   td {
     padding: 1.25rem;
     display: table-cell;
-    color: black;
   }
   th {
     width: 24%;
     vertical-align: middle;
     font-size: 14px;
-    color: black;
   }
   td {
     width: 76%;
     font-family: 'Courier New';
-    font-size: 16px;
-    color: black;
+    font-size: 15px;
   }
+
 
 
   /* Header */
@@ -355,15 +352,18 @@ DESKTOP SIZE
 }
 
 
+
+
 /*2q.html
 ================================================ */
-.page-core2Q {
+.page-core2 {
 
   background-position: left 106px, 0 0;
   background-size: 70vw auto, contain;
   background-repeat: no-repeat;
+ 
 }
-.page-core2Q .btn {
+.page-core2 .btn {
   margin-bottom: 4rem;
 }
 
@@ -434,6 +434,7 @@ DESKTOP SIZE
   td {
     padding: 1.25rem;
     display: table-cell;
+    
   }
   th {
     width: 24%;

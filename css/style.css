@@ -17,14 +17,12 @@ body {
 /*
 COMMON
 ================================================ */
-p,
-td {
+p {
   line-height: 1.7;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
-  color: #1C1C1C;
+  color: white;
 }
-
 
 /* Layout */
 .wrapper {
@@ -101,6 +99,7 @@ table {
 th,
 td {
   display: block;
+
 }
 th {
   font-weight: normal;
@@ -112,6 +111,7 @@ th {
 td {
   padding: 0.75rem 1rem 1.75rem;
   font-family: "Poppins", sans-serif;
+  color: #323232;
 }
 
 /*
@@ -266,7 +266,7 @@ DESKTOP SIZE
   td {
     width: 76%;
     font-family: 'Courier New';
-    font-size: 15px;
+    font-size: 16px;
     color: black;
   }
 
@@ -358,7 +358,7 @@ DESKTOP SIZE
 }
 
 
-/*JOB.html
+/*2q.html
 ================================================ */
 .page-core2Q {
 

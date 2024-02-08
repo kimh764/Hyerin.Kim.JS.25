@@ -537,15 +537,7 @@ DESKTOP SIZE
     content: "\f2b5";
   }
 
-  /* Form */
-  label {
-    display: inline-block;
-    margin: 0 1.5rem 0 0;
-  }
-  .select-box {
-    width: 40%;
-  }
-
+ 
   /* Footer */
   .footer-nav {
     display: flex;
@@ -558,3 +550,5 @@ DESKTOP SIZE
     color: #fff;
   }
 }
+
+

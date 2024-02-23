@@ -177,7 +177,7 @@ HOME
 
 .home-hero {
   background: url("../images") no-repeat right top / 40vw auto;
-  animation: moveBackground 10s linear infinite; /* 5초 간격으로 반복, 속도 및 지속시간을 조절할 수 있습니다. */
+
   padding: 5.5rem 1rem 3rem;
   background-size: cover;
 }

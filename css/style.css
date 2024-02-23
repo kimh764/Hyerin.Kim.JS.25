@@ -47,20 +47,21 @@ main {
 .btn {
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  padding: 1.25rem 3.25rem;
+  padding: 1.25rem 1.25rem;
   font-size: 1.375rem;
   text-align: center;
   width: 100%;
 }
 .btn-primary {
   color: #fff;
-  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background: black;
   background-blend-mode: multiply;
   border-radius: 10px;
+  opacity: 0.5;
 
 }
 .btn-primary:hover {
-  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: gray;
  background-blend-mode: multiply,multiply;
 }
 .btn-secondary {
@@ -85,7 +86,7 @@ main {
 }
 .title-center {
   text-align: center;
-  color: #FF2F00;
+  color: gray;
 }
 .title-center::after {
   margin: 2.5rem auto;
@@ -164,8 +165,9 @@ header .wrapper {
 HOME
 ================================================ */
 .home-hero {
-  background: url("../images/11.png") no-repeat right top / 70vw auto;
+  background: url("../images/11.png") no-repeat right top / 40vw auto;
   padding: 5.5rem 1rem 3rem;
+  background-size: cover;
 }
 .home-hero h2 {
   font-family: "Poppins", sans-serif;
@@ -305,7 +307,8 @@ DESKTOP SIZE
 
   .main-nav a:active,
   .main-nav .current:active {
-    background-color: #FF2F00;
+    background-color:  #555557;
+    
 }
 
   .main-nav a::before {
@@ -503,7 +506,7 @@ DESKTOP SIZE
     text-align: right;
   }
   .timeline-content {
-    border-left: 5px solid #f8f6f2;
+    border-left: 5px solid #d4cfcf;
     width: 76%;
     padding: 1.5rem 0 1.5rem 2.5rem;
     position: relative;
@@ -512,7 +515,7 @@ DESKTOP SIZE
     display: block;
     width: 2.25rem;
     height: 2.25rem;
-    background: #d0bea2;
+    background: #d4cfcf;
     text-align: center;
     padding: 0.1rem;
     position: absolute;
@@ -552,3 +555,6 @@ DESKTOP SIZE
 }
 
 
+h5 {
+  font-size: 20px;
+}

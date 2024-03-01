@@ -345,63 +345,6 @@ DESKTOP SIZE
     width: 38vw;
   }
 
- 
-
-  /* Form */
-  label {
-    display: inline-block;
-    margin: 0 1.5rem 0 0;
-  }
-  .select-box {
-    width: 40%;
-  }
-
-  /* Footer */
-  .footer-nav {
-    display: flex;
-    justify-content: center;
-  }
-  .footer-nav li {
-    margin: 0 0.75rem;
-  }
-  .footer-nav a:hover {
-    color: #fff;
-  }
-}
-
-
-
-
-/*2q.html
-================================================ */
-.page-core2 {
-
-  background-position: left 106px, 0 0;
-  background-size: 70vw auto, contain;
-  background-repeat: no-repeat;
- 
-}
-.page-core2 .btn {
-  margin-bottom: 4rem;
-}
-
-/* Timeline */
-.timeline {
-  list-style: decimal inside;
-  font-family: 'Chonburi', serif;
-  color: #1C1C1C;
-  font-weight: 100;
-}
-.timeline-item {
-  margin-bottom: 2rem;
-}
-.timeline-title {
-  font-size: 1.375rem;
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-.timeline-content {
-  font-family:  'Courier New';
 }
 
 
@@ -424,4 +367,4 @@ footer .btn {
 .footer-nav a {
   color: #d5d7e4;
 }
-
+ 

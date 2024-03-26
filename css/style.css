@@ -177,8 +177,7 @@ HOME
 }
 
 .home-hero {
-  background: url("../images") no-repeat right top / 40vw auto;
-
+  background:  40vw auto;
   padding: 5.5rem 1rem 3rem;
   background-size: cover;
 }

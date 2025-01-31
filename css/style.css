@@ -155,7 +155,7 @@ header .wrapper {
 .menu-home::before {
   content: "\f015";
 }
-.menu-core2::before {
+.menu-JS25::before {
   content: "\f0ca";
 }
 .main-nav .current {
